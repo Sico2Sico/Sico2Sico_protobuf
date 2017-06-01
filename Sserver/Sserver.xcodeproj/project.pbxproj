@@ -1,0 +1,435 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		078C25771EDFBAA600647A48 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078C25761EDFBAA600647A48 /* AppDelegate.swift */; };
+		078C25791EDFBAA600647A48 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078C25781EDFBAA600647A48 /* ViewController.swift */; };
+		078C257B1EDFBAA600647A48 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 078C257A1EDFBAA600647A48 /* Assets.xcassets */; };
+		078C257E1EDFBAA600647A48 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 078C257C1EDFBAA600647A48 /* Main.storyboard */; };
+		078C258B1EDFBADB00647A48 /* ysocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078C25861EDFBADB00647A48 /* ysocket.swift */; };
+		078C258C1EDFBADB00647A48 /* ytcpsocket.c in Sources */ = {isa = PBXBuildFile; fileRef = 078C25871EDFBADB00647A48 /* ytcpsocket.c */; };
+		078C258D1EDFBADB00647A48 /* ytcpsocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078C25881EDFBADB00647A48 /* ytcpsocket.swift */; };
+		078C258E1EDFBADB00647A48 /* yudpsocket.c in Sources */ = {isa = PBXBuildFile; fileRef = 078C25891EDFBADB00647A48 /* yudpsocket.c */; };
+		078C258F1EDFBADB00647A48 /* yudpsocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078C258A1EDFBADB00647A48 /* yudpsocket.swift */; };
+		078C25911EDFBAEE00647A48 /* Immessage.proto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078C25901EDFBAEE00647A48 /* Immessage.proto.swift */; };
+		078C26361EDFBC7900647A48 /* ProtocolBuffers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 078C26311EDFBC4A00647A48 /* ProtocolBuffers.framework */; };
+		078C26381EDFBE3600647A48 /* SClientManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078C26371EDFBE3600647A48 /* SClientManager.swift */; };
+		078C263A1EDFC82100647A48 /* SServerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078C26391EDFC82100647A48 /* SServerManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		078C262C1EDFBC4A00647A48 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 078C26241EDFBC4A00647A48 /* ProtocolBuffers.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3F85569919C71BCF003802F2;
+			remoteInfo = ProtocolBuffers;
+		};
+		078C262E1EDFBC4A00647A48 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 078C26241EDFBC4A00647A48 /* ProtocolBuffers.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3F8556A419C71BCF003802F2;
+			remoteInfo = UnitTesting;
+		};
+		078C26301EDFBC4A00647A48 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 078C26241EDFBC4A00647A48 /* ProtocolBuffers.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3F41061C1A1A667700742090;
+			remoteInfo = "ProtocolBuffers(OSX)";
+		};
+		078C26321EDFBC4A00647A48 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 078C26241EDFBC4A00647A48 /* ProtocolBuffers.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3F4106261A1A667800742090;
+			remoteInfo = "UnitTesting(OSX)";
+		};
+		078C26341EDFBC4A00647A48 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 078C26241EDFBC4A00647A48 /* ProtocolBuffers.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3F31A1A91BA199C000F477C1;
+			remoteInfo = "ProtocolBuffers(watchOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		078C25731EDFBAA600647A48 /* Sserver.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sserver.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		078C25761EDFBAA600647A48 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		078C25781EDFBAA600647A48 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		078C257A1EDFBAA600647A48 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		078C257D1EDFBAA600647A48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		078C257F1EDFBAA600647A48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		078C25861EDFBADB00647A48 /* ysocket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ysocket.swift; sourceTree = "<group>"; };
+		078C25871EDFBADB00647A48 /* ytcpsocket.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ytcpsocket.c; sourceTree = "<group>"; };
+		078C25881EDFBADB00647A48 /* ytcpsocket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ytcpsocket.swift; sourceTree = "<group>"; };
+		078C25891EDFBADB00647A48 /* yudpsocket.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = yudpsocket.c; sourceTree = "<group>"; };
+		078C258A1EDFBADB00647A48 /* yudpsocket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = yudpsocket.swift; sourceTree = "<group>"; };
+		078C25901EDFBAEE00647A48 /* Immessage.proto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Immessage.proto.swift; sourceTree = "<group>"; };
+		078C26241EDFBC4A00647A48 /* ProtocolBuffers.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ProtocolBuffers.xcodeproj; path = "../../protobuf-swift-master/plugin/ProtocolBuffers/ProtocolBuffers.xcodeproj"; sourceTree = "<group>"; };
+		078C26371EDFBE3600647A48 /* SClientManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SClientManager.swift; sourceTree = "<group>"; };
+		078C26391EDFC82100647A48 /* SServerManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SServerManager.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		078C25701EDFBAA600647A48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				078C26361EDFBC7900647A48 /* ProtocolBuffers.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		078C256A1EDFBAA600647A48 = {
+			isa = PBXGroup;
+			children = (
+				078C25751EDFBAA600647A48 /* Sserver */,
+				078C25741EDFBAA600647A48 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		078C25741EDFBAA600647A48 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				078C25731EDFBAA600647A48 /* Sserver.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		078C25751EDFBAA600647A48 /* Sserver */ = {
+			isa = PBXGroup;
+			children = (
+				078C26241EDFBC4A00647A48 /* ProtocolBuffers.xcodeproj */,
+				078C25851EDFBADB00647A48 /* ysocket */,
+				078C25761EDFBAA600647A48 /* AppDelegate.swift */,
+				078C25781EDFBAA600647A48 /* ViewController.swift */,
+				078C26371EDFBE3600647A48 /* SClientManager.swift */,
+				078C26391EDFC82100647A48 /* SServerManager.swift */,
+				078C25901EDFBAEE00647A48 /* Immessage.proto.swift */,
+				078C257A1EDFBAA600647A48 /* Assets.xcassets */,
+				078C257C1EDFBAA600647A48 /* Main.storyboard */,
+				078C257F1EDFBAA600647A48 /* Info.plist */,
+			);
+			path = Sserver;
+			sourceTree = "<group>";
+		};
+		078C25851EDFBADB00647A48 /* ysocket */ = {
+			isa = PBXGroup;
+			children = (
+				078C25861EDFBADB00647A48 /* ysocket.swift */,
+				078C25871EDFBADB00647A48 /* ytcpsocket.c */,
+				078C25881EDFBADB00647A48 /* ytcpsocket.swift */,
+				078C25891EDFBADB00647A48 /* yudpsocket.c */,
+				078C258A1EDFBADB00647A48 /* yudpsocket.swift */,
+			);
+			path = ysocket;
+			sourceTree = "<group>";
+		};
+		078C26251EDFBC4A00647A48 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				078C262D1EDFBC4A00647A48 /* ProtocolBuffers.framework */,
+				078C262F1EDFBC4A00647A48 /* ProtocolBuffersTests.xctest */,
+				078C26311EDFBC4A00647A48 /* ProtocolBuffers.framework */,
+				078C26331EDFBC4A00647A48 /* UnitTesting(OSX).xctest */,
+				078C26351EDFBC4A00647A48 /* ProtocolBuffers.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		078C25721EDFBAA600647A48 /* Sserver */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 078C25821EDFBAA600647A48 /* Build configuration list for PBXNativeTarget "Sserver" */;
+			buildPhases = (
+				078C256F1EDFBAA600647A48 /* Sources */,
+				078C25701EDFBAA600647A48 /* Frameworks */,
+				078C25711EDFBAA600647A48 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Sserver;
+			productName = Sserver;
+			productReference = 078C25731EDFBAA600647A48 /* Sserver.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		078C256B1EDFBAA600647A48 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Sico2Sico;
+				TargetAttributes = {
+					078C25721EDFBAA600647A48 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 2TV8766467;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 078C256E1EDFBAA600647A48 /* Build configuration list for PBXProject "Sserver" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 078C256A1EDFBAA600647A48;
+			productRefGroup = 078C25741EDFBAA600647A48 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 078C26251EDFBC4A00647A48 /* Products */;
+					ProjectRef = 078C26241EDFBC4A00647A48 /* ProtocolBuffers.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				078C25721EDFBAA600647A48 /* Sserver */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		078C262D1EDFBC4A00647A48 /* ProtocolBuffers.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = ProtocolBuffers.framework;
+			remoteRef = 078C262C1EDFBC4A00647A48 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		078C262F1EDFBC4A00647A48 /* ProtocolBuffersTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = ProtocolBuffersTests.xctest;
+			remoteRef = 078C262E1EDFBC4A00647A48 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		078C26311EDFBC4A00647A48 /* ProtocolBuffers.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = ProtocolBuffers.framework;
+			remoteRef = 078C26301EDFBC4A00647A48 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		078C26331EDFBC4A00647A48 /* UnitTesting(OSX).xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "UnitTesting(OSX).xctest";
+			remoteRef = 078C26321EDFBC4A00647A48 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		078C26351EDFBC4A00647A48 /* ProtocolBuffers.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = ProtocolBuffers.framework;
+			remoteRef = 078C26341EDFBC4A00647A48 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		078C25711EDFBAA600647A48 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				078C257B1EDFBAA600647A48 /* Assets.xcassets in Resources */,
+				078C257E1EDFBAA600647A48 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		078C256F1EDFBAA600647A48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				078C258B1EDFBADB00647A48 /* ysocket.swift in Sources */,
+				078C25791EDFBAA600647A48 /* ViewController.swift in Sources */,
+				078C258E1EDFBADB00647A48 /* yudpsocket.c in Sources */,
+				078C258C1EDFBADB00647A48 /* ytcpsocket.c in Sources */,
+				078C25771EDFBAA600647A48 /* AppDelegate.swift in Sources */,
+				078C25911EDFBAEE00647A48 /* Immessage.proto.swift in Sources */,
+				078C26381EDFBE3600647A48 /* SClientManager.swift in Sources */,
+				078C258D1EDFBADB00647A48 /* ytcpsocket.swift in Sources */,
+				078C263A1EDFC82100647A48 /* SServerManager.swift in Sources */,
+				078C258F1EDFBADB00647A48 /* yudpsocket.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		078C257C1EDFBAA600647A48 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				078C257D1EDFBAA600647A48 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		078C25801EDFBAA600647A48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		078C25811EDFBAA600647A48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		078C25831EDFBAA600647A48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 2TV8766467;
+				INFOPLIST_FILE = Sserver/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.autoepp.store.Sserver;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		078C25841EDFBAA600647A48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 2TV8766467;
+				INFOPLIST_FILE = Sserver/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.autoepp.store.Sserver;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		078C256E1EDFBAA600647A48 /* Build configuration list for PBXProject "Sserver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				078C25801EDFBAA600647A48 /* Debug */,
+				078C25811EDFBAA600647A48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		078C25821EDFBAA600647A48 /* Build configuration list for PBXNativeTarget "Sserver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				078C25831EDFBAA600647A48 /* Debug */,
+				078C25841EDFBAA600647A48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 078C256B1EDFBAA600647A48 /* Project object */;
+}
